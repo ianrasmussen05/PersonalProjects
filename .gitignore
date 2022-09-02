@@ -5,7 +5,6 @@
 /Test
 /Blackjack
 /angular
-/.vscode
+*.vscode/
 /.vs
-/Random_Generator/.vscode
 /cascon_inputgui
