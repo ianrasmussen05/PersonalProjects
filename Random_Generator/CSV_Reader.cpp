@@ -175,7 +175,7 @@ bool CSVReader::validateEmail(std::string email)
     short atCounter = 0;
     short periodCounter = 0;
 
-    for (unsigned int i = 0; i <= email.size(); ++i)
+    for (unsigned int i = 0; i < email.size(); ++i)
     {
         if (email[i] == '@')
         {
